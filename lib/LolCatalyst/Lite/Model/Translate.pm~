@@ -1,7 +1,7 @@
 package LolCatalyst::Lite::Model::Translate;
 use Moose;
 use namespace::autoclean;
-use Acme::LOLCAT ();
+use Acem::LOLCAT ();
 
 extends 'Catalyst::Model';
 
