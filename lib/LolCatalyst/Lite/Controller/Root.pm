@@ -50,6 +50,17 @@ sub translate :Local {
     );
 }
 
+=head2 translate_service
+
+The translate_service action handler (/translate_service)
+
+=cut
+sub translate_service :Local {
+    my ( $self, $c ) = @_;
+    $c->forward('translate');
+    $c->stash->{current_view} = 'Service';
+}
+
 =head2 default
 
 Standard 404 error page
