@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
-use Test::More qw(no_plan);
+use Test::More tests => 12;
 use Catalyst::Test 'LolCatalyst::Lite';
 use HTTP::Headers;
 use HTTP::Request::Common;
